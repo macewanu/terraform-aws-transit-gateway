@@ -1,3 +1,9 @@
+variable "enable_security_group_referencing_support" {
+  type        = bool
+  default     = false
+  description = "If true, enable security group referencing support."
+}
+
 variable "ram_resource_share_enabled" {
   type        = bool
   default     = false
